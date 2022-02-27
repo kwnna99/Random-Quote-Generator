@@ -22,7 +22,7 @@ const quotes=[{quote:"When you can’t find someone to follow, you have to find 
  * @returns randomly, one of the quotes stored in the quotes array
  */
 function getRandomQuote(){
-  return quotes[Math.floor(Math.random()*quotes.length)]
+  return quotes[Math.floor(Math.random()*quotes.length)];
 }
 
 
