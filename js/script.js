@@ -46,7 +46,6 @@ function printQuote(){
   }
   finalquote += `</p>`;
 
-  //setting the string into the existing html
   document.getElementById('quote-box').innerHTML = finalquote;
 
 }
